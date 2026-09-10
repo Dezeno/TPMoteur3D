@@ -1,0 +1,26 @@
+﻿  gl3w.c
+  imgui_impl_opengl3.cpp
+  imgui_impl_sdl.cpp
+  imgui.cpp
+  imgui_draw.cpp
+  imgui_tables.cpp
+  imgui_widgets.cpp
+  application.cpp
+  camera.cpp
+  triangle_mesh.cpp
+  triangle_mesh_model.cpp
+  lab_work_1.cpp
+  lab_work_manager.cpp
+  main.cpp
+  image.cpp
+  Génération de code en cours
+  Previous IPDB not found, fall back to full compilation.
+  All 1480 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Fin de la génération du code
+  M3D_ISICG.vcxproj -> C:\Users\FA506\Desktop\Master\M1\Moteur 3D\TP\TP1\M3D_ISICG-main\x64\Release\M3D_ISICG.exe
+  C:\Users\FA506\Desktop\Master\M1\Moteur 3D\TP\TP1\M3D_ISICG-main\lib\SDL2\lib\x64\SDL2.dll
+  1 fichier(s) copiÚ(s)
+  C:\Users\FA506\Desktop\Master\M1\Moteur 3D\TP\TP1\M3D_ISICG-main\lib\assimp\assimp-vc142-mt.dll
+  1 fichier(s) copiÚ(s)
+  C:\Users\FA506\Desktop\Master\M1\Moteur 3D\TP\TP1\M3D_ISICG-main\lib\zlib1.dll
+  1 fichier(s) copiÚ(s)

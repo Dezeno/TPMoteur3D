@@ -1,0 +1,14 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "M3D_ISICG\\x64\\Debug\\base_lab_work.obj",
+            "outputs": [
+                "M3D_ISICG\\x64\\Debug\\base_lab_work.hpp.obj.dt.module.json",
+                "M3D_ISICG\\x64\\Debug\\base_lab_work.hpp.obj.dt.d.json"
+            ],
+            "requires": []
+        }
+    ]
+}

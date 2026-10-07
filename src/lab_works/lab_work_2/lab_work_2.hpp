@@ -15,6 +15,7 @@ namespace M3D_ISICG
 		~LabWork2();
 
 		bool init() override;
+		void disk( const Vec2f &c, int n, float r );
 		void animate( const float p_deltaTime ) override;
 		void render() override;
 
@@ -24,12 +25,20 @@ namespace M3D_ISICG
 	  private:
 		// ================ Scene data.
 		std::vector<Vec2f> _vertices;
+		std::vector<unsigned int> _indexVertices;
+		std::vector<Vec4f> _colorVertices;
+		long double			   _time = 0;
+		float				   _luminosite = 1.0f;
 		// ================
 
 		// ================ GL data.
 		GLuint program = GL_INVALID_INDEX;
 		GLuint vbo	   = GL_INVALID_INDEX;
+		GLuint vbo2	   = GL_INVALID_INDEX;
 		GLuint vao	   = GL_INVALID_INDEX;
+		GLuint ebo	   = GL_INVALID_INDEX;
+		GLint  location;
+		GLint  brightnessLocation;
 		// ================
 
 		// ================ Settings.

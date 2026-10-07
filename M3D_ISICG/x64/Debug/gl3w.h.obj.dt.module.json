@@ -1,0 +1,14 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "M3D_ISICG\\x64\\Debug\\gl3w.obj",
+            "outputs": [
+                "M3D_ISICG\\x64\\Debug\\gl3w.h.obj.dt.module.json",
+                "M3D_ISICG\\x64\\Debug\\gl3w.h.obj.dt.d.json"
+            ],
+            "requires": []
+        }
+    ]
+}

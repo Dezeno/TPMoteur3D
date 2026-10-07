@@ -21,6 +21,9 @@ namespace M3D_ISICG
 
 		void setScreenSize( const int p_width, const int p_height );
 
+		void setPerspective( const bool p_perspective );
+		void setOrthoSize( const float p_orthoSize );
+
 		void moveFront( const float p_delta );
 		void moveRight( const float p_delta );
 		void moveUp( const float p_delta );
@@ -48,6 +51,8 @@ namespace M3D_ISICG
 		float _fovy			= 60.f;
 		float _zNear		= 0.1f;
 		float _zFar			= 1000.f;
+		bool  _perspective	= true;
+		float _orthoSize	= 2.0f;
 
 		Mat4f _viewMatrix		= MAT4F_ID;
 		Mat4f _projectionMatrix = MAT4F_ID;

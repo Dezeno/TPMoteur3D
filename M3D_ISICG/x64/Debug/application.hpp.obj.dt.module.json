@@ -1,0 +1,14 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "M3D_ISICG\\x64\\Debug\\application.obj",
+            "outputs": [
+                "M3D_ISICG\\x64\\Debug\\application.hpp.obj.dt.module.json",
+                "M3D_ISICG\\x64\\Debug\\application.hpp.obj.dt.d.json"
+            ],
+            "requires": []
+        }
+    ]
+}

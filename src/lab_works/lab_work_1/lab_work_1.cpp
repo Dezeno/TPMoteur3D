@@ -103,7 +103,7 @@ namespace M3D_ISICG
 
 	void LabWork1::render() 
 	{ 
-		glClear( GL_COLOR_BUFFER_BIT );
+		glClear( GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT );
 		glBindVertexArray( vao );
 		glDrawArrays( GL_TRIANGLES, 0, _vertices.size() );
 		glBindVertexArray( 0 );

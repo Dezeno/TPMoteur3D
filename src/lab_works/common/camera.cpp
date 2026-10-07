@@ -41,6 +41,19 @@ namespace M3D_ISICG
 		_computeProjectionMatrix();
 	}
 
+	void Camera::setPerspective( const bool p_perspective )
+	{
+		_perspective = p_perspective;
+		_computeProjectionMatrix();
+	}
+
+	void Camera::setOrthoSize( const float p_orthoSize )
+	{
+		_orthoSize = p_orthoSize;
+		_computeProjectionMatrix();
+	}
+
+
 	void Camera::moveFront( const float p_delta )
 	{
 		_position -= _invDirection * p_delta;
@@ -80,10 +93,21 @@ namespace M3D_ISICG
 
 	void Camera::_computeViewMatrix()
 	{ 
+		_viewMatrix = glm::lookAt( _position, _position - _invDirection, _up );
 	}
 
-	void Camera::_computeProjectionMatrix()
-	{
+	void Camera::_computeProjectionMatrix() 
+	{ 
+		if ( _perspective )
+		{
+			_projectionMatrix = glm::perspective( glm::radians( _fovy ), _aspectRatio, _zNear, _zFar );
+		}
+		else
+		{
+			const float halfHeight = _orthoSize;
+			const float halfWidth  = _orthoSize * _aspectRatio;
+			_projectionMatrix	   = glm::ortho( -halfWidth, halfWidth, -halfHeight, halfHeight, _zNear, _zFar );
+		}
 	}
 
 	void Camera::_updateVectors()

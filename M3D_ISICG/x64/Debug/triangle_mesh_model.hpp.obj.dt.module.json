@@ -1,0 +1,14 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "M3D_ISICG\\x64\\Debug\\triangle_mesh_model.obj",
+            "outputs": [
+                "M3D_ISICG\\x64\\Debug\\triangle_mesh_model.hpp.obj.dt.module.json",
+                "M3D_ISICG\\x64\\Debug\\triangle_mesh_model.hpp.obj.dt.d.json"
+            ],
+            "requires": []
+        }
+    ]
+}

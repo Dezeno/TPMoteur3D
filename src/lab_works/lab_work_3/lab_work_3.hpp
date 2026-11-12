@@ -45,7 +45,7 @@ namespace M3D_ISICG
 
 		// ================ GL data.
 		GLuint program = GL_INVALID_INDEX;
-		GLint  location;
+		GLint  location = -1;
 		// ================
 
 		// ================ Settings.

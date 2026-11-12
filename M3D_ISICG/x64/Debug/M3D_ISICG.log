@@ -1,8 +1,4 @@
-﻿  camera.cpp
-  lab_work_manager.cpp
-  lab_work_3.cpp
-C:\Users\FA506\Desktop\Master\M1\Moteur 3D\TP\M3D_ISICG-main\src\lab_works\lab_work_3\lab_work_3.cpp(173,57): warning C4267: 'argument' : conversion de 'size_t' en 'GLsizei', perte possible de données
-  Génération de code en cours...
+﻿  lab_work_4.cpp
   M3D_ISICG.vcxproj -> C:\Users\FA506\Desktop\Master\M1\Moteur 3D\TP\M3D_ISICG-main\x64\Debug\M3D_ISICG.exe
   0 fichier(s) copiÚ(s)
   0 fichier(s) copiÚ(s)
